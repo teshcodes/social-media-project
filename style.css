@@ -1,4 +1,11 @@
-body {
+body  {
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(232, 19%, 15%);
+}
+
+.overall-container {
     margin: 0 auto;
     justify-content: center;
     align-items: center;
@@ -283,8 +290,7 @@ body {
 .views-container {
     background-color: hsl(228, 28%, 20%);
     height: 80px;
-    padding-top: 10px;
-    padding-left: 15px;
+    padding: 10px 17px 0px 15px;
     margin-top: 15px;
     border-radius: 5px;
 }
@@ -293,7 +299,7 @@ body {
     display: flex;
     margin-top: 10px;
     color: hsl(228, 34%, 66%);
-    gap: 165px;
+    justify-content: space-between;
 }
 
 .page-views-box {
@@ -308,7 +314,8 @@ body {
 .facebook-percentage-box {
     display: flex;
     margin-top: 18px;
-    gap: 200px;
+    justify-content: space-between;
+
 }
 
 .facebook-amount-views {
@@ -338,8 +345,7 @@ body {
 .likes-container {
     background-color: hsl(228, 28%, 20%);
     height: 80px;
-    padding-top: 10px;
-    padding-left: 15px;
+    padding: 10px 17px 0px 15px;
     margin-top: 15px;
     border-radius: 5px;
 }
@@ -348,7 +354,7 @@ body {
     display: flex;
     margin-top: 10px;
     color: hsl(228, 34%, 66%);
-    gap: 200px;
+    justify-content: space-between;
 }
 
 .likes-views-box {
@@ -363,7 +369,7 @@ body {
 .likes-percentage-box {
     display: flex;
     margin-top: 18px;
-    gap: 200px;
+    justify-content: space-between;
 }
 
 .likes-amount-views {
@@ -393,8 +399,7 @@ body {
 .instagram-likes-container {
     background-color: hsl(228, 28%, 20%);
     height: 80px;
-    padding-top: 10px;
-    padding-left: 15px;
+    padding: 10px 17px 0px 15px;
     margin-top: 15px;
     border-radius: 5px;
 }
@@ -403,7 +408,7 @@ body {
     display: flex;
     margin-top: 10px;
     color: hsl(228, 34%, 66%);
-    gap: 200px;
+    justify-content: space-between;
 }
 
 .instagram-likes-box {
@@ -418,7 +423,7 @@ body {
 .instagram-percentage-likes {
     display: flex;
     margin-top: 18px;
-    gap: 157px;
+    justify-content: space-between;
 }
 
 .instagram-amount-likes {
@@ -447,9 +452,7 @@ body {
 /* =====-instagram-profile-views--==== */
 .instagram-views-container {
     background-color: hsl(228, 28%, 20%);
-    height: 80px;
-    padding-top: 10px;
-    padding-left: 15px;
+    padding: 10px 17px 10px 15px;
     margin-top: 15px;
     border-radius: 5px;
 }
@@ -458,7 +461,7 @@ body {
     display: flex;
     margin-top: 10px;
     color: hsl(228, 34%, 66%);
-    gap: 150px;
+    justify-content: space-between;
 }
 
 .profile-views-box {
@@ -473,7 +476,7 @@ body {
 .instagram-percentage-box {
     display: flex;
     margin-top: 18px;
-    gap: 163px;
+    justify-content: space-between;
 }
 
 .instagram-amount-views {
@@ -503,8 +506,7 @@ body {
 .retweets-container {
     background-color: hsl(228, 28%, 20%);
     height: 80px;
-    padding-top: 10px;
-    padding-left: 15px;
+    padding: 10px 17px 0px 15px;
     border-radius: 5px;
 }
 
@@ -512,7 +514,7 @@ body {
     display: flex;
     margin-top: 10px;
     color: hsl(228, 34%, 66%);
-    gap: 170px;
+    justify-content: space-between;
 }
 
 .retweets-box {
@@ -527,7 +529,7 @@ body {
 .retweets-percentage-box {
     display: flex;
     margin-top: 18px;
-    gap: 167px;
+     justify-content: space-between;
 }
 
 .amount-retweeted {
@@ -557,8 +559,7 @@ body {
 .retweets-likes-container {
     background-color: hsl(228, 28%, 20%);
     height: 80px;
-    padding-top: 10px;
-    padding-left: 15px;
+    padding: 10px 17px 0px 15px;
     margin-top: 15px;
     border-radius: 5px;
 }
@@ -567,7 +568,7 @@ body {
     display: flex;
     margin-top: 10px;
     color: hsl(228, 34%, 66%);
-    gap: 185px;
+    justify-content: space-between;
 }
 
 .retweet-container {
@@ -582,7 +583,7 @@ body {
 .retweets-percentage-likes {
     display: flex;
     margin-top: 18px;
-    gap: 163px;
+     justify-content: space-between;
 }
 
 .amount-of-retweets {
@@ -612,8 +613,7 @@ body {
 .youtube-likes-container {
     background-color: hsl(228, 28%, 20%);
     height: 80px;
-    padding-top: 10px;
-    padding-left: 15px;
+    padding: 10px 17px 0px 15px;
     margin-top: 15px;
     border-radius: 5px;
 }
@@ -622,7 +622,7 @@ body {
     display: flex;
     margin-top: 10px;
     color: hsl(228, 34%, 66%);
-    gap: 185px;
+    justify-content: space-between;
 }
 
 .youtube-box {
@@ -637,7 +637,7 @@ body {
 .youtube-percentage-likes {
     display: flex;
     margin-top: 18px;
-    gap: 167px;
+     justify-content: space-between;
 }
 
 .amount-of-likes {
@@ -667,8 +667,7 @@ body {
 .youtube-views-container {
     background-color: hsl(228, 28%, 20%);
     height: 80px;
-    padding-top: 10px;
-    padding-left: 15px;
+    padding: 10px 17px 0px 15px;
     margin-top: 15px;
     border-radius: 5px;
 }
@@ -677,7 +676,7 @@ body {
     display: flex;
     margin-top: 10px;
     color: hsl(228, 34%, 66%);
-    gap: 151px;
+    justify-content: space-between;
 }
 
 .youtube-total-views-box {
@@ -692,7 +691,7 @@ body {
 .youtube-percentage-box {
     display: flex;
     margin-top: 18px;
-    gap: 153px;
+    justify-content: space-between;
 }
 
 .amount-of-views {
@@ -727,48 +726,48 @@ body {
 
     .header-plus-mode {
         display: flex;
-        gap: 180px;
+        justify-content: space-between;
         padding-top: 10px;
     }
 
     /* ---------facebook-and-twitter */
     .facebook-and-twitter {
         display: flex;
-        gap: 25px;
+        justify-content: space-between;
     }
 
     /* --------instagram-and-youtube */
     .instagram-and-youtube {
         display: flex;
-        gap: 25px;
+        justify-content: space-between;
     }
 
     /* -------facebook-views-and-likes */
     .facebook-views-and-likes {
         display: flex;
-        gap: 25px;
         margin-top: 10px;
+        justify-content: space-between;
     }
 
     /* ------instagram-likes-and-views */
     .instagram-likes-and-views {
         display: flex;
-        gap: 25px;
         margin-top: 10px;
+        justify-content: space-between;
     }
 
     /* -----retweets-and-likes */
     .retweets-and-likes {
         display: flex;
-        gap: 25px;
         margin-top: 10px;
+        justify-content: space-between;
     }
 
     /* ------youtube-likes-and-views */
     .youtube-likes-and-views {
         display: flex;
-        gap: 25px;
         margin-top: 10px;
+        justify-content: space-between;
     }
 
     .dashboard-box {
@@ -1150,7 +1149,7 @@ body {
     /* =====-instagram-profile-views--==== */
     .instagram-views-container {
         width: 300px;
-        height: 150px;
+        height: 140px;
     }
 
     .instagram-views-box {
@@ -1379,9 +1378,30 @@ body {
 
     .header-plus-mode {
         display: flex;
-        gap: 720px;
         margin: 20px;
         padding-top: 10px;
+        justify-content: space-between;
+    }
+
+    
+    /* ---------facebook-and-twitter */
+    .facebook-and-twitter {
+        display: flex;
+        gap: 45px;
+        justify-content: space-between;
+    }
+
+    /* --------instagram-and-youtube */
+    .instagram-and-youtube {
+        display: flex;
+        gap: 45px;
+        justify-content: space-between;
+    }
+
+    .overall-overview {
+        max-width: 1440px;
+        margin: 0 auto;
+        margin-right: 30px; 
     }
 
     .dashboard-box {
@@ -1399,7 +1419,8 @@ body {
 
     .overall-social-media {
         display: flex;
-        gap: 30px;
+        justify-content: space-evenly;
+        gap: 45px;
     }
 
     /* ======----overview-container---======== */
@@ -1411,44 +1432,39 @@ body {
 
     .social-overview-container {
         display: flex;
-        gap: 30px;
+        justify-content: space-between;
+        gap: 25px;
     }
 
-    /* =====-retweets--==== */
-    .retweets-container {
-        margin-top: 10px;
-        margin-bottom: 40px;
-        width: 290px;
-        height: 150px;
-        padding: 10px 0px 20px 20px;
+    .facebook-views-and-likes   {
+        gap: 25px;
     }
 
-    .retweets-view-box {
-        margin-top: 15px;
-        gap: 120px;
+    .instagram-likes-and-views  {
+        gap: 25px;
+    }
+
+    .likes-and-views-container {
+        display: flex;
+        justify-content: space-between;
+        gap: 25px;
+    }
+
+    .retweets-and-likes  {
+        gap: 25px;
+    }
+
+    .youtube-likes-and-views  {
+        margin-top: -6px;
+        gap: 25px;
     }
 
     .retweets-box {
         font-size: x-large;
     }
 
-    .retweets-image {
-        width: 25px;
-        height: 26px;
-    }
-
-    .retweets-percentage-box {
-        margin-top: 20px;
-        gap: 143px;
-    }
-
     .amount-retweeted {
         font-size: 43px;
-    }
-
-    .retweets-percentage-container {
-        margin-top: 17px;
-        gap: 5px;
     }
 
     .retweets-image-up {
@@ -1461,67 +1477,15 @@ body {
         font-size: large;
     }
 
-    /* =====-likes--==== */
-    .retweets-likes-container {
-        margin-top: 10px;
-        margin-bottom: 40px;
-        width: 290px;
-        height: 150px;
-        padding: 10px 0px 10px 20px;
-    }
-
-    .retweets-likes-box {
-        margin-top: 15px;
-        gap: 155px;
-    }
-
     .retweet-container {
         font-size: x-large;
-    }
-
-    .retweets-likes-image {
-        width: 25px;
-        height: 26px;
-    }
-
-    .retweets-percentage-likes {
-        margin-top: 20px;
-        gap: 143px;
     }
 
     .amount-of-retweets {
         font-size: 43px;
     }
 
-    .retweet-percentage-container {
-        margin-top: 15px;
-        gap: 5px;
-    }
-
-    .retweet-image-up {
-        height: 8px;
-        width: 8px;
-        margin-top: 5px;
-    }
-
     .retweet-percentage {
         font-size: large;
-    }
-
-    .likes-and-views-container {
-        display: flex;
-        gap: 30px;
-    }
-
-    .youtube-likes-container {
-        width: 300px;
-        height: 160px;
-    }
-
-    /* -------youtube-likes */
-    .youtube-views-container {
-        width: 290px;
-        height: 160px;
-
     }
 }
