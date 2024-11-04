@@ -1,0 +1,1527 @@
+body {
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 20px 30px 20px;
+    background-color: hsl(232, 19%, 15%);
+}
+
+.dashboard-box {
+    font-size: 20px;
+    color: hsl(0, 0%, 100%);
+}
+
+.followers-box {
+    font-size: small;
+    color: hsl(228, 34%, 66%);
+}
+
+.straight-line {
+    margin-top: 15px;
+    opacity: 0.2;
+}
+
+/* ======----mode container---====== */
+.mode-container {
+    display: flex;
+    gap: 65%;
+    justify-content: center;
+    margin: 0;
+}
+
+.dark-mode-box {
+    font-size: small;
+    color: hsl(228, 34%, 66%);
+}
+
+.on-container {
+    font-size: small;
+    width: 35px;
+    height: 18px;
+    border-radius: 30px;
+    background-color: hsl(163, 72%, 41%);
+}
+
+.on-box {
+    margin-top: 2px;
+    margin-left: 3px;
+    border: 2px solid;
+    width: 10px;
+    height: 10px;
+    border-radius: 20px;
+    background-color: black;
+}
+
+/* =======---facebook---======= */
+.facebook-overall {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    border-top: 3px solid hsl(208, 92%, 53%);
+    background-color: hsl(228, 28%, 20%);
+}
+
+.facebook-container {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.facebook-name {
+    font-size: x-small;
+    padding-top: 2px;
+    color: hsl(228, 34%, 66%);
+}
+
+.facebook-time-created {
+    font-size: 43px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: hsl(0, 0%, 100%);
+}
+
+.facebook-account-followers {
+    font-size: small;
+    opacity: 0.7;
+    letter-spacing: 1px;
+    margin-top: -3px;
+    color: hsl(228, 34%, 66%);
+}
+
+.facebook-increament-box {
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+    margin-top: 15px;
+}
+
+.facebook-increase-image {
+    padding-top: 3px;
+}
+
+.facebook-amount-increased {
+    font-size: x-small;
+    margin-bottom: 5px;
+    color: hsl(0, 0%, 100%);
+}
+
+/* =======---twitter---======= */
+.twitter-overall {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    border-top: 3px solid hsl(208, 92%, 53%);
+    background-color: hsl(228, 28%, 20%);
+}
+
+.twitter-container {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.twitter-name {
+    font-size: x-small;
+    padding-top: 2px;
+    color: hsl(228, 34%, 66%);
+}
+
+.twitter-time-created {
+    font-size: 43px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: hsl(0, 0%, 100%);
+}
+
+.twitter-account-followers {
+    font-size: small;
+    opacity: 0.7;
+    letter-spacing: 1px;
+    margin-top: -3px;
+    color: hsl(228, 34%, 66%);
+}
+
+.twitter-increament-box {
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+    margin-top: 15px;
+}
+
+.twitter-increase-image {
+    padding-top: 3px;
+}
+
+.twitter-amount-increased {
+    font-size: x-small;
+    margin-bottom: 5px;
+    color: hsl(163, 72%, 41%);
+}
+
+/* =======---instagram---======= */
+.instagram-overall {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    border-top: 3px solid hsl(37, 97%, 70%);
+    background-color: hsl(228, 28%, 20%);
+}
+
+.instagram-container {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.instagram-name {
+    font-size: x-small;
+    padding-top: 2px;
+    color: hsl(228, 34%, 66%);
+}
+
+.instagram-time-created {
+    font-size: 43px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: hsl(0, 0%, 100%);
+}
+
+.instagram-account-followers {
+    font-size: small;
+    opacity: 0.7;
+    letter-spacing: 1px;
+    margin-top: -3px;
+    color: hsl(228, 34%, 66%);
+}
+
+.instagram-increament-box {
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+    margin-top: 15px;
+}
+
+.instagram-increase-image {
+    padding-top: 3px;
+}
+
+.instagram-amount-increased {
+    font-size: x-small;
+    margin-bottom: 5px;
+    color: hsl(163, 72%, 41%);
+}
+
+/* =======---youtube---======= */
+.youtube-overall {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    border-top: 3px solid hsl(356, 69%, 56%);
+    background-color: hsl(228, 28%, 20%);
+}
+
+.youtube-container {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.youtube-name {
+    font-size: x-small;
+    padding-top: 2px;
+    color: hsl(228, 34%, 66%);
+}
+
+.youtube-time-created {
+    font-size: 43px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: hsl(0, 0%, 100%);
+}
+
+.youtube-account-followers {
+    font-size: small;
+    opacity: 0.7;
+    letter-spacing: 1px;
+    margin-top: -3px;
+    color: hsl(228, 34%, 66%);
+}
+
+.youtube-increament-box {
+    display: flex;
+    justify-content: center;
+    gap: 3px;
+    margin-top: 15px;
+}
+
+.youtube-increase-image {
+    padding-top: 5px;
+}
+
+.youtube-amount-increased {
+    font-size: x-small;
+    color: hsl(356, 69%, 56%);
+}
+
+/* ======----overview-container---======== */
+.overview-container {
+    color: hsl(0, 0%, 100%);
+    margin-top: 20px;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+/* =====-facebook-page-views--==== */
+.views-container {
+    background-color: hsl(228, 28%, 20%);
+    height: 80px;
+    padding-top: 10px;
+    padding-left: 15px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.views-box {
+    display: flex;
+    margin-top: 10px;
+    color: hsl(228, 34%, 66%);
+    gap: 165px;
+}
+
+.page-views-box {
+    font-size: small;
+}
+
+.facebook-image-views {
+    width: 15px;
+    height: 16px;
+}
+
+.facebook-percentage-box {
+    display: flex;
+    margin-top: 18px;
+    gap: 200px;
+}
+
+.facebook-amount-views {
+    color: hsl(0, 0%, 100%);
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.facebook-percentage-container {
+    display: flex;
+    margin-top: 4px;
+    gap: 3px;
+}
+
+.facebook-image-up {
+    height: 4px;
+    width: 4px;
+    margin-top: 3px;
+}
+
+.facebook-percentage {
+    color: hsl(163, 72%, 41%);
+    font-size: x-small;
+}
+
+/* =====-facebook-page-likes--==== */
+.likes-container {
+    background-color: hsl(228, 28%, 20%);
+    height: 80px;
+    padding-top: 10px;
+    padding-left: 15px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.likes-box {
+    display: flex;
+    margin-top: 10px;
+    color: hsl(228, 34%, 66%);
+    gap: 200px;
+}
+
+.likes-views-box {
+    font-size: small;
+}
+
+.likes-image-views {
+    width: 15px;
+    height: 16px;
+}
+
+.likes-percentage-box {
+    display: flex;
+    margin-top: 18px;
+    gap: 200px;
+}
+
+.likes-amount-views {
+    color: hsl(0, 0%, 100%);
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.likes-percentage-container {
+    display: flex;
+    margin-top: 4px;
+    gap: 3px;
+}
+
+.likes-image-down {
+    height: 4px;
+    width: 4px;
+    margin-top: 3px;
+}
+
+.likes-percentage {
+    color: hsl(356, 69%, 56%);
+    font-size: x-small;
+}
+
+/* =====-instagram-page-likes--==== */
+.instagram-likes-container {
+    background-color: hsl(228, 28%, 20%);
+    height: 80px;
+    padding-top: 10px;
+    padding-left: 15px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.instagram-box {
+    display: flex;
+    margin-top: 10px;
+    color: hsl(228, 34%, 66%);
+    gap: 200px;
+}
+
+.instagram-likes-box {
+    font-size: small;
+}
+
+.instagram-image-likes {
+    width: 15px;
+    height: 16px;
+}
+
+.instagram-percentage-likes {
+    display: flex;
+    margin-top: 18px;
+    gap: 157px;
+}
+
+.instagram-amount-likes {
+    color: hsl(0, 0%, 100%);
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.instagram-percentage-likes-container {
+    display: flex;
+    margin-top: 4px;
+    gap: 3px;
+}
+
+.instagram-image-down {
+    height: 4px;
+    width: 4px;
+    margin-top: 3px;
+}
+
+.instagram-percentage {
+    color: hsl(163, 72%, 41%);
+    font-size: x-small;
+}
+
+/* =====-instagram-profile-views--==== */
+.instagram-views-container {
+    background-color: hsl(228, 28%, 20%);
+    height: 80px;
+    padding-top: 10px;
+    padding-left: 15px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.instagram-views-box {
+    display: flex;
+    margin-top: 10px;
+    color: hsl(228, 34%, 66%);
+    gap: 150px;
+}
+
+.profile-views-box {
+    font-size: small;
+}
+
+.instagram-image-views {
+    width: 15px;
+    height: 16px;
+}
+
+.instagram-percentage-box {
+    display: flex;
+    margin-top: 18px;
+    gap: 163px;
+}
+
+.instagram-amount-views {
+    color: hsl(0, 0%, 100%);
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.instagram-percentage-views-container {
+    display: flex;
+    margin-top: 4px;
+    gap: 3px;
+}
+
+.instagram-image-up {
+    height: 4px;
+    width: 4px;
+    margin-top: 3px;
+}
+
+.instagram-percentage-views {
+    color: hsl(163, 72%, 41%);
+    font-size: x-small;
+}
+
+/* =====-retweets--==== */
+.retweets-container {
+    background-color: hsl(228, 28%, 20%);
+    height: 80px;
+    padding-top: 10px;
+    padding-left: 15px;
+    border-radius: 5px;
+}
+
+.retweets-view-box {
+    display: flex;
+    margin-top: 10px;
+    color: hsl(228, 34%, 66%);
+    gap: 170px;
+}
+
+.retweets-box {
+    font-size: small;
+}
+
+.retweets-image {
+    width: 15px;
+    height: 16px;
+}
+
+.retweets-percentage-box {
+    display: flex;
+    margin-top: 18px;
+    gap: 167px;
+}
+
+.amount-retweeted {
+    color: hsl(0, 0%, 100%);
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.retweets-percentage-container {
+    display: flex;
+    margin-top: 4px;
+    gap: 3px;
+}
+
+.retweets-image-up {
+    height: 4px;
+    width: 4px;
+    margin-top: 3px;
+}
+
+.retweets-percentage {
+    color: hsl(163, 72%, 41%);
+    font-size: x-small;
+}
+
+/* =====-likes--==== */
+.retweets-likes-container {
+    background-color: hsl(228, 28%, 20%);
+    height: 80px;
+    padding-top: 10px;
+    padding-left: 15px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.retweets-likes-box {
+    display: flex;
+    margin-top: 10px;
+    color: hsl(228, 34%, 66%);
+    gap: 185px;
+}
+
+.retweet-container {
+    font-size: small;
+}
+
+.retweets-likes-image {
+    width: 15px;
+    height: 16px;
+}
+
+.retweets-percentage-likes {
+    display: flex;
+    margin-top: 18px;
+    gap: 163px;
+}
+
+.amount-of-retweets {
+    color: hsl(0, 0%, 100%);
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.retweet-percentage-container {
+    display: flex;
+    margin-top: 4px;
+    gap: 3px;
+}
+
+.retweet-image-up {
+    height: 4px;
+    width: 4px;
+    margin-top: 3px;
+}
+
+.retweet-percentage {
+    color: hsl(163, 72%, 41%);
+    font-size: x-small;
+}
+
+/* =====-YouTube likes--==== */
+.youtube-likes-container {
+    background-color: hsl(228, 28%, 20%);
+    height: 80px;
+    padding-top: 10px;
+    padding-left: 15px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.youtube-likes-box {
+    display: flex;
+    margin-top: 10px;
+    color: hsl(228, 34%, 66%);
+    gap: 185px;
+}
+
+.youtube-box {
+    font-size: small;
+}
+
+.youtube-likes-image {
+    width: 15px;
+    height: 16px;
+}
+
+.youtube-percentage-likes {
+    display: flex;
+    margin-top: 18px;
+    gap: 167px;
+}
+
+.amount-of-likes {
+    color: hsl(0, 0%, 100%);
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.youtube-percentage-container {
+    display: flex;
+    margin-top: 4px;
+    gap: 3px;
+}
+
+.youtube-image-down {
+    height: 4px;
+    width: 4px;
+    margin-top: 5px;
+}
+
+.youtube-percentage {
+    color: hsl(356, 69%, 56%);
+    font-size: x-small;
+}
+
+/* =====-YouTube views--==== */
+.youtube-views-container {
+    background-color: hsl(228, 28%, 20%);
+    height: 80px;
+    padding-top: 10px;
+    padding-left: 15px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.youtube-views-box {
+    display: flex;
+    margin-top: 10px;
+    color: hsl(228, 34%, 66%);
+    gap: 151px;
+}
+
+.youtube-total-views-box {
+    font-size: small;
+}
+
+.youtube-views-image {
+    width: 15px;
+    height: 16px;
+}
+
+.youtube-percentage-box {
+    display: flex;
+    margin-top: 18px;
+    gap: 153px;
+}
+
+.amount-of-views {
+    color: hsl(0, 0%, 100%);
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.youtube-percentage-views {
+    display: flex;
+    margin-top: 4px;
+    gap: 3px;
+}
+
+.youtube-views-image-down {
+    height: 4px;
+    width: 4px;
+    margin-top: 9px;
+}
+
+.youtube-percentage-views {
+    color: hsl(356, 69%, 56%);
+    font-size: x-small;
+}
+
+@media only screen and (min-width: 768px) {
+    .overall-container {
+        max-width: 768px;
+        margin: 0 auto;
+        padding: 40px; 
+    }
+
+    .header-plus-mode {
+        display: flex;
+        gap: 180px;
+        padding-top: 10px;
+    }
+
+    /* ---------facebook-and-twitter */
+    .facebook-and-twitter {
+        display: flex;
+        gap: 25px;
+    }
+
+    /* --------instagram-and-youtube */
+    .instagram-and-youtube {
+        display: flex;
+        gap: 25px;
+    }
+
+    /* -------facebook-views-and-likes */
+    .facebook-views-and-likes {
+        display: flex;
+        gap: 25px;
+        margin-top: 10px;
+    }
+
+    /* ------instagram-likes-and-views */
+    .instagram-likes-and-views {
+        display: flex;
+        gap: 25px;
+        margin-top: 10px;
+    }
+
+    /* -----retweets-and-likes */
+    .retweets-and-likes {
+        display: flex;
+        gap: 25px;
+        margin-top: 10px;
+    }
+
+    /* ------youtube-likes-and-views */
+    .youtube-likes-and-views {
+        display: flex;
+        gap: 25px;
+        margin-top: 10px;
+    }
+
+    .dashboard-box {
+        font-size: 30px;
+    }
+
+    .followers-box {
+        font-size: large;
+        line-height: 30px;
+    }
+
+    .straight-line {
+        margin-top: 15px;
+        width: 0px;
+    }
+
+    /* ======----mode container---====== */
+    .mode-container {
+        gap: 30px;
+        margin-left: -50px;
+        padding-top: 20px;
+    }
+
+    .dark-mode-box {
+        font-size: x-large;
+    }
+
+    .on-container {
+        width: 45px;
+        height: 23px;
+    }
+
+    .on-box {
+        margin-top: 4px;
+        width: 15px;
+        height: 13px;
+        background-color: black;
+    }
+
+    /* =======---facebook---======= */
+    .facebook-overall {
+        margin-top: 30px;
+        padding-top: 30px;
+        width: 310px;
+        height: 200px;
+    }
+
+    .facebook-container {
+        gap: 5px;
+    }
+
+    .facebook-image {
+        width: 25px;
+        height: 28px;
+        padding-top: 3px;
+    }
+
+    .facebook-name {
+        font-size: x-large;
+    }
+
+    .facebook-time-created {
+        font-size: 73px;
+        margin-top: 10px;
+    }
+
+    .facebook-account-followers {
+        font-size: large;
+        margin-top: 3px;
+    }
+
+    .facebook-increament-box {
+        gap: 4px;
+        margin-top: 17px;
+    }
+
+    .facebook-increase-image {
+        width: 15px;
+        height: 10px;
+        padding-top: 4px;
+    }
+
+    .facebook-amount-increased {
+        font-size: medium;
+        margin-bottom: 5px;
+    }
+
+    /* =======---twitter---======= */
+    .twitter-overall {
+        margin-top: 32px;
+        padding-top: 30px;
+        padding-bottom: 10px;
+        width: 310px;
+        height: 200px;
+    }
+
+    .twitter-container {
+        gap: 5px;
+    }
+
+    .twitter-image {
+        width: 25px;
+        height: 28px;
+        padding-top: 3px;
+    }
+
+    .twitter-name {
+        font-size: x-large;
+        padding-top: 2px;
+    }
+
+    .twitter-time-created {
+        font-size: 73px;
+        margin-top: 10px;
+    }
+
+    .twitter-account-followers {
+        font-size: large;
+        margin-top: -3px;
+    }
+
+    .twitter-increament-box {
+        gap: 4px;
+        margin-top: 17px;
+    }
+
+    .twitter-increase-image {
+        width: 15px;
+        height: 10px;
+        padding-top: 4px;
+    }
+
+    .twitter-amount-increased {
+        font-size: medium;
+        margin-bottom: 5px;
+    }
+
+    /* =======---instagram---======= */
+    .instagram-overall {
+        margin-top: 32px;
+        padding-top: 30px;
+        padding-bottom: 15px;
+        width: 310px;
+        height: 200px;
+    }
+
+    .instagram-container {
+        gap: 5px;
+    }
+
+    .instagram-image {
+        width: 25px;
+        height: 28px;
+        padding-top: 3px;
+    }
+
+    .instagram-name {
+        font-size: x-large;
+        padding-top: 2px;
+    }
+
+    .instagram-time-created {
+        font-size: 73px;
+        margin-top: 10px;
+    }
+
+    .instagram-account-followers {
+        font-size: large;
+        margin-top: -3px;
+    }
+
+    .instagram-increament-box {
+        gap: 4px;
+        margin-top: 17px;
+    }
+
+    .instagram-increase-image {
+        width: 15px;
+        height: 10px;
+        padding-top: 4px;
+    }
+
+    .instagram-amount-increased {
+        font-size: medium;
+        margin-bottom: 5px;
+    }
+
+    /* =======---youtube---======= */
+    .youtube-overall {
+        margin-top: 32px;
+        padding-top: 30px;
+        padding-bottom: 15px;
+        width: 310px;
+        height: 200px;
+    }
+
+    .youtube-container {
+        gap: 5px;
+    }
+
+    .youtube-image {
+        width: 25px;
+        height: 28px;
+        padding-top: 3px;
+    }
+
+    .youtube-name {
+        font-size: x-large;
+        padding-top: 2px;
+    }
+
+    .youtube-time-created {
+        font-size: 73px;
+        margin-top: 10px;
+    }
+
+    .youtube-account-followers {
+        font-size: large;
+        margin-top: -3px;
+    }
+
+    .youtube-increament-box {
+        gap: 4px;
+        margin-top: 17px;
+    }
+
+    .youtube-increase-image {
+        width: 15px;
+        height: 10px;
+        padding-top: 4px;
+    }
+
+    .youtube-amount-increased {
+        font-size: medium;
+        margin-bottom: 5px;
+    }
+
+    /* ======----overview-container---======== */
+    .overview-container {
+        margin-top: 30px;
+        font-size: 40px;
+    }
+
+    /* =====-facebook-page-views--==== */
+    .views-container {
+        width: 290px;
+        height: 150px;
+
+    }
+
+    .views-box {
+        margin-top: 15px;
+        gap: 125px;
+    }
+
+    .page-views-box {
+        font-size: x-large;
+    }
+
+    .facebook-image-views {
+        width: 25px;
+        height: 26px;
+    }
+
+    .facebook-percentage-box {
+        margin-top: 20px;
+        gap: 185px;
+    }
+
+    .facebook-amount-views {
+        font-weight: bold;
+        font-size: 43px;
+    }
+
+    .facebook-percentage-container {
+        margin-top: 15px;
+        gap: 5px;
+    }
+
+    .facebook-image-up {
+        height: 8px;
+        width: 8px;
+        margin-top: 4px;
+    }
+
+    .facebook-percentage {
+        font-size: large;
+    }
+
+    /* =====-facebook-page-likes--==== */
+    .likes-container {
+        width: 300px;
+        height: 150px;
+    }
+
+    .likes-box {
+        margin-top: 15px;
+        gap: 183px;
+    }
+
+    .likes-views-box {
+        font-size: x-large;
+    }
+
+    .likes-image-views {
+        width: 25px;
+        height: 26px;
+    }
+
+    .likes-percentage-box {
+        margin-top: 20px;
+        gap: 185px;
+    }
+
+    .likes-amount-views {
+        font-weight: bold;
+        font-size: 43px;
+    }
+
+    .likes-percentage-container {
+        margin-top: 15px;
+        gap: 5px;
+    }
+
+    .likes-image-down {
+        height: 8px;
+        width: 8px;
+        margin-top: 4px;
+    }
+
+    .likes-percentage {
+        font-size: large;
+    }
+
+    /* =====-instagram-page-likes--==== */
+    .instagram-likes-container {
+        width: 290px;
+        height: 150px;
+    }
+
+    .instagram-box {
+        margin-top: 15px;
+        gap: 183px;
+    }
+
+    .instagram-likes-box {
+        font-size: x-large;
+    }
+
+    .instagram-image-likes {
+        width: 25px;
+        height: 26px;
+    }
+
+    .instagram-percentage-likes {
+        margin-top: 20px;
+        gap: 105px;
+    }
+
+    .instagram-amount-likes {
+        font-size: 43px;
+    }
+
+    .instagram-percentage-likes-container {
+        margin-top: 15px;
+        gap: 5px;
+    }
+
+    .instagram-image-down {
+        height: 8px;
+        width: 8px;
+        margin-top: 4px;
+    }
+
+    .instagram-percentage {
+        font-size: large;
+    }
+
+    /* =====-instagram-profile-views--==== */
+    .instagram-views-container {
+        width: 300px;
+        height: 150px;
+    }
+
+    .instagram-views-box {
+        margin-top: 15px;
+        gap: 100px;
+    }
+
+    .profile-views-box {
+        font-size: x-large;
+    }
+
+    .instagram-image-views {
+        width: 25px;
+        height: 26px;
+    }
+
+    .instagram-percentage-box {
+        margin-top: 20px;
+        gap: 126px;
+    }
+
+    .instagram-amount-views {
+        font-size: 43px;
+    }
+
+    .instagram-percentage-views-container {
+        margin-top: 15px;
+        gap: 5px;
+    }
+
+    .instagram-image-up {
+        height: 8px;
+        width: 8px;
+        margin-top: 4px;
+    }
+
+    .instagram-percentage-views {
+        font-size: large;
+    }
+
+    /* =====-retweets--==== */
+    .retweets-container {
+        width: 290px;
+        height: 150px;
+    }
+
+    .retweets-view-box {
+        margin-top: 15px;
+        gap: 140px;
+    }
+
+    .retweets-box {
+        font-size: x-large;
+    }
+
+    .retweets-image {
+        width: 25px;
+        height: 26px;
+    }
+
+    .retweets-percentage-box {
+        margin-top: 20px;
+        gap: 126px;
+    }
+
+    .amount-retweeted {
+        font-size: 43px;
+    }
+
+    .retweets-percentage-container {
+        margin-top: 15px;
+        gap: 5px;
+    }
+
+    .retweets-image-up {
+        height: 8px;
+        width: 8px;
+        margin-top: 9px;
+    }
+
+    .retweets-percentage {
+        font-size: x-large;
+    }
+
+    /* =====-likes--==== */
+    .retweets-likes-container {
+        width: 300px;
+        height: 150px;
+        margin-top: -1px;
+    }
+
+    .retweets-likes-box {
+        margin-top: 15px;
+        gap: 165px;
+    }
+
+    .retweet-container {
+        font-size: x-large;
+    }
+
+    .retweets-likes-image {
+        width: 25px;
+        height: 26px;
+    }
+
+    .retweets-percentage-likes {
+        margin-top: 20px;
+        gap: 153px;
+    }
+
+    .amount-of-retweets {
+        font-size: 43px;
+    }
+
+    .retweet-percentage-container {
+        margin-top: 15px;
+        gap: 5px;
+    }
+
+    .retweet-image-up {
+        height: 8px;
+        width: 8px;
+        margin-top: 5px;
+    }
+
+    .retweet-percentage {
+        font-size: large;
+    }
+
+    /* =====-YouTube likes--==== */
+    .youtube-likes-container {
+        width: 290px;
+        height: 150px;
+    }
+
+    .youtube-likes-box {
+        margin-top: 15px;
+        gap: 165px;
+    }
+
+    .youtube-box {
+        font-size: x-large;
+    }
+
+    .youtube-likes-image {
+        width: 25px;
+        height: 26px;
+    }
+
+    .youtube-percentage-likes {
+        margin-top: 20px;
+        gap: 153px;
+    }
+
+    .amount-of-likes {
+        font-size: 43px;
+    }
+
+    .youtube-percentage-container {
+        margin-top: 15px;
+        gap: 5px;
+    }
+
+    .youtube-image-down {
+        height: 8px;
+        width: 8px;
+        margin-top: 4px;
+    }
+
+    .youtube-percentage {
+        font-size: large;
+    }
+
+    /* =====-YouTube views--==== */
+    .youtube-views-container {
+        width: 300px;
+        height: 150px;
+    }
+
+    .youtube-views-box {
+        margin-top: 15px;
+        gap: 115px;
+    }
+
+    .youtube-total-views-box {
+        font-size: x-large;
+    }
+
+    .youtube-views-image {
+        width: 25px;
+        height: 26px;
+    }
+
+    .youtube-percentage-box {
+        margin-top: 20px;
+        gap: 143px;
+    }
+
+    .amount-of-views {
+        font-size: 43px;
+    }
+
+    .youtube-percentage-views {
+        margin-top: 10px;
+        gap: 5px;
+    }
+
+    .youtube-views-image-down {
+        height: 8px;
+        width: 8px;
+        margin-top: 15px;
+    }
+
+    .youtube-percentage-views {
+        font-size: large;
+    }
+
+}
+
+@media only screen and (min-width: 1440px) {
+    .overall-container {
+        max-width: 1440px;
+        margin: 0 auto;
+        padding: 30px; 
+    }
+
+    .header-plus-mode {
+        display: flex;
+        gap: 720px;
+        margin: 20px;
+        padding-top: 10px;
+    }
+
+    .dashboard-box {
+        font-size: 45px;
+    }
+
+    .followers-box {
+        font-size: x-large;
+        line-height: 35px;
+    }
+
+    .straight-line {
+        width: 0px;
+    }
+
+    .overall-social-media {
+        display: flex;
+        gap: 30px;
+    }
+
+    /* ======----overview-container---======== */
+    .overview-container {
+        margin-top: 60px;
+        margin-bottom: 20px;
+        font-size: 35px;
+    }
+
+    .social-overview-container {
+        display: flex;
+        gap: 30px;
+    }
+
+    /* =====-retweets--==== */
+    .retweets-container {
+        margin-top: 10px;
+        margin-bottom: 40px;
+        width: 290px;
+        height: 150px;
+        padding: 10px 0px 20px 20px;
+    }
+
+    .retweets-view-box {
+        margin-top: 15px;
+        gap: 120px;
+    }
+
+    .retweets-box {
+        font-size: x-large;
+    }
+
+    .retweets-image {
+        width: 25px;
+        height: 26px;
+    }
+
+    .retweets-percentage-box {
+        margin-top: 20px;
+        gap: 143px;
+    }
+
+    .amount-retweeted {
+        font-size: 43px;
+    }
+
+    .retweets-percentage-container {
+        margin-top: 17px;
+        gap: 5px;
+    }
+
+    .retweets-image-up {
+        height: 8px;
+        width: 8px;
+        margin-top: 7px;
+    }
+
+    .retweets-percentage {
+        font-size: large;
+    }
+
+    /* =====-likes--==== */
+    .retweets-likes-container {
+        margin-top: 10px;
+        margin-bottom: 40px;
+        width: 290px;
+        height: 150px;
+        padding: 10px 0px 10px 20px;
+    }
+
+    .retweets-likes-box {
+        margin-top: 15px;
+        gap: 155px;
+    }
+
+    .retweet-container {
+        font-size: x-large;
+    }
+
+    .retweets-likes-image {
+        width: 25px;
+        height: 26px;
+    }
+
+    .retweets-percentage-likes {
+        margin-top: 20px;
+        gap: 143px;
+    }
+
+    .amount-of-retweets {
+        font-size: 43px;
+    }
+
+    .retweet-percentage-container {
+        margin-top: 15px;
+        gap: 5px;
+    }
+
+    .retweet-image-up {
+        height: 8px;
+        width: 8px;
+        margin-top: 5px;
+    }
+
+    .retweet-percentage {
+        font-size: large;
+    }
+
+    .likes-and-views-container {
+        display: flex;
+        gap: 30px;
+    }
+
+    .youtube-likes-container {
+        width: 300px;
+        height: 160px;
+    }
+
+    /* -------youtube-likes */
+    .youtube-views-container {
+        width: 290px;
+        height: 160px;
+
+    }
+}
